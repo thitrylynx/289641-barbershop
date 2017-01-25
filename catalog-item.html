@@ -6,9 +6,9 @@
     </head>
       <body>
           <header class="main-header">
-              <div class="conteiner">
+              <div class="container">
                   <div class="logo">
-                      <img src="http://placehold.it/150x100" width="50" height="10" alt="Барбершоп">
+                      <a href="#"><img src="http://placehold.it/150x100" width="50" height="10" alt="Барбершоп"></a>
                   </div>
                   <nav class="main-navigation">
                       <ul>
@@ -21,8 +21,8 @@
                           <li>
                               <a href="#">Прайс-лист</a>
                           </li>
-                          <li>
-                              <a href="#">Магазин</a>
+                          <li class="active">
+                              Магазин
                           </li>
                           <li>
                               <a href="#">Контакты</a>
@@ -34,11 +34,10 @@
                   </div>
               </div>
           </header>
-          <main>
-              <div class="conteiner">
-                  <h1>Набор для путешествий «Baxter of California»</h1>
-                  <div class="breadcrumbs">
-                      <ul>
+          <main class="container">
+              <h1>Набор для путешествий «Baxter of California»</h1>
+                  <div class="pages-nav-box">
+                      <ul class="breadcrumbs">
                           <li>
                               <a href="#">Главная</a>
                           </li>
@@ -48,34 +47,40 @@
                           <li>
                               <a href="#">Средства для ухода</a>
                           </li>
-                          <li>
-                              <span class="breadcrumb">Набор для путешествий «BAXTER OF CALIFORNIA» </span>
+                          <li class="active">
+                              Набор для путешествий «BAXTER OF CALIFORNIA»
                           </li>
                       </ul>
                   </div>
-                  <section class="gallery">
-                      <img src="http://placehold.it/150x100" alt="Набор для путешествий BAXTER OF CALIFORNIA">
-                      <img src="http://placehold.it/150x100" alt="Набор для путешествий BAXTER OF CALIFORNIA">
-                      <img src="http://placehold.it/150x100" alt="Набор для путешествий BAXTER OF CALIFORNIA">
-                      <img src="http://placehold.it/150x100" alt="Набор для путешествий BAXTER OF CALIFORNIA">
-                  </section>
-                  <section class="description">
-                      <span class="availability">Есть в наличии</span>
-                      <span class="series-of-article"> Артикул: Dexter-Ae</span>
+                  <div class="gallery">
+                      <div class="main-image">
+                          <img src="http://placehold.it/150x100" alt="Набор для путешествий BAXTER OF CALIFORNIA">  
+                      </div>
+                      <div class="small-images">
+                          <a href="#"><img src="http://placehold.it/150x100" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>
+                          <a href="#"><img src="http://placehold.it/150x100" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>
+                          <a href="#"><img src="http://placehold.it/150x100" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>
+                      </div>
+                  </div>
+                  <div class="description">
+                      <div class="availability">Есть в наличии</div>
+                      <div class="series-of-article"> Артикул: Dexter-Ae</div>
                       <p class="item-description">
-                          Travel Kit –  необходимый аксессуар во время любого<br> путешествия. В аккуратной кожаной сумке находится все, что<br> нужно для бритья и ухода за кожей во время рабочей поездки<br>
-                          или отдыха: средство для умывания, увлажняющий крем, крем<br>
-                          для бритья, крем после бритья, шампунь. Набор также может<br> стать отличным подарком.
+                          Travel Kit –  необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки
+                          или отдыха: средство для умывания, увлажняющий крем, крем
+                          для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
                       </p>
-                      <div class="price-conteiner">
+                      <div class="offer">
+                          <div class="price-container">
                           2 900 РУБ.
+                          </div>
+                          <div class="buy-container">
+                              <a class="buy" href="#">Купить</a>
+                          </div>
                       </div>
-                      <div class="buy-conteiner">
-                          <a class="buy" href="#">Купить</a>
+                      <div class="tittle-of-product-options">
+                          В набор входят:
                       </div>
-                  </section>
-                  <section class="product-options">
-                      <span class="tittle-of-product-options">В набор входят:</span>
                       <ul>
                           <li>Средство для умывания (50 мл)</li>
                           <li>Увлажняюйщий крем (50 мл)</li>
@@ -83,9 +88,8 @@
                           <li>Крем после бритья, шампунь (50 мл)</li>
                           <li>Удобная кожаная косметичка</li>
                       </ul>
-                  </section>
-              </div>  
-          </main>
+                  </div>
+              </main>  
           <footer class="main-footer">
               <div class="container">
                   <section class="footer-contacts">
